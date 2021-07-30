@@ -28,7 +28,9 @@ public class DataProvider1 {
 	WebDriver driver;
 @BeforeSuite
 public void openBrowser()
+
 {
+	System.out.println("DataProvider TestNg");
 	System.out.println("Browser Opening");
 	System.setProperty("webdriver.chrome.driver", "C:\\Users\\91989\\Dropbox\\My PC (LAPTOP-B71V4SN8)\\Desktop\\Selenium\\chromedriver92.exe");
 		driver=new ChromeDriver();
